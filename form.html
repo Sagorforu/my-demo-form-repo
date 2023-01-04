@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Making</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to my website</h2>
+    <form>
+    <label for="name">Your name     <input id="name"  type="Your name" placeholder="Your name">
+    </label>
+    <label for="email">Your Email    <input id="email"  type="email" placeholder="Your Email">
+    </label>
+    </label>
+    <label for="number">Your Number    <input id="number"  type="number" placeholder="Your Number">
+    </label>
+    <fieldset>
+        <legend>Pick one</legend>
+        <label for="chitoi">
+            <input type="radio" name="pitha" id="chitoi">chitoi
+        </label>
+        <label for="Vapa">
+            <input type="radio" name="pitha" id="Vapa">Vapa
+        </label>
+        <label for="kacha">
+            <input type="radio" name="pitha" id="chitoi">kacha
+        </label>
+    </fieldset>
+    <fieldset>
+        <h4>Pick one vorta or more</h4>
+        <label for="sorisa">
+            <input type="checkbox" name="Vorta" id="sorisa">sorisa
+        </label>
+        <label for="Potato">
+            <input type="checkbox" name="Vorta" id="potato">Potato
+        </label>
+        <label for="Dal">
+            <input type="checkbox" name="Vorta" id="dal">Dal
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
